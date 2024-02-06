@@ -19,5 +19,5 @@ function findLargest(values){
     }
 }
 
-const numbers = [3, 12, 4, 0, "2", 53, 6];
-console.log(findLargest(numbers));
+// const numbers = [3, 12, 4, 0, "2", 53, 6];
+//console.log(findLargest(numbers));
