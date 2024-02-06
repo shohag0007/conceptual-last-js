@@ -10,7 +10,10 @@
 //  console.log(result);
  
  */
- function details(info){
+ 
+
+
+function details(info){
     if(typeof info !== "object"){
         return " You have to give object";
     }else if(!info.name || !info.age){
