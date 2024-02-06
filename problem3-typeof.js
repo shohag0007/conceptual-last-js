@@ -2,6 +2,9 @@ function pandaCost(singara, samucha, jilapi){
    
     if(typeof singara !== "number" || typeof samucha !== "number" || typeof jilapi !== "number"){
         return " Please provide an integer number to get the food items price";
+    } else if(singara < 0 || samucha < 0 || jilapi < 0){
+        return "You have to give positive number";
+
     }
 
     else{
@@ -15,7 +18,7 @@ function pandaCost(singara, samucha, jilapi){
 
 }
 
-console.log(pandaCost(10, 5, 4));
+console.log(pandaCost(10, 5, -4));
 
 
 
